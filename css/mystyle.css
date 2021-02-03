@@ -17,46 +17,103 @@
 
 /* Global
 --------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before *:after {
+    box-sizing: inherit;
+}
  body {
      font-size: 18px;
+     margin: 0;
+     padding: 0;
    }
    img {
      width: 300px;
    }
+   h2 {
+       margin: 0;
+   }
+   .button {
+color: #F7FFF7;
+background: #3a2f61;
+text-decoration: none;
+padding: 8px;
+border-radius: 4px;
+display: inline-block;
 
 
+   }
+.wrap {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+
+}
+h1 {
+  text-shadow: 2px 2px rgb(236, 236, 146);
+  text-align: center;
+}
      /* Profile
 --------------------*/
 header {
-  background-color:#142054;
-  color:#e3d5e1;
+background-color: #7d68ca;
+  color: rgb(13, 28, 77);
   
 }
 
 /* Projects
 --------------------*/
-.project {
-  background-color:#faffd4;
+.project-color {
+  background-color:lightyellow;
   
+}
+.project-items {
+    overflow: hidden;
+    border-bottom: 1px dashed rgb(13, 28, 77);
+    padding: 25px 0;
+}
+.project-items img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 8px;
+
+}
+.project-items h3 {
+  margin-top: 0;
+
+}
+.project-hitems {
+  overflow: hidden;
+  border-bottom: 1px dashed rgb(13, 28, 77);
+  padding: 25px 0;
+}
+.project-hitems img {
+  float: left;
+  margin-right: 20px;
+  margin-top: -20;
+}
+.projects-hitems h3 {
+  margin-top: -25px;
 }
 
 
 /* Work
 --------------------*/
 .work {
-  background-color: #faffd4;
+  background-color: rgb(181, 218, 241);
 }
 
 
 /* Education
 --------------------*/
 .education {
-  background-color: #faffd4;
+  background-color: lightyellow;
 
 }
 /* Contact
 --------------------*/
 footer {
-  background-color:#142054;
-  color: #e3d5e1
+    background-color: #7d68ca;
+    color: rgb(13, 28, 77);
  
